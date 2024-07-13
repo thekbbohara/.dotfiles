@@ -1,0 +1,44 @@
+*{
+    font: "JetBrainsMono Nerd Font 12";
+    base: #313244ff;
+    text: #cdd6f4ff;
+    text50: #cdd6f450;
+    blue: #89b4faff;
+    surface0: #313244FF;
+    surface1: #45475A50;
+  }
+
+window{
+    width: 450px;
+    background-color: @base;
+    border-radius: 8px;
+    padding: 8px;
+    fixed-height: true;
+    fixed-width: true;
+  }
+
+inputbar{
+    enabled:false;
+  }
+listview{
+    columns:1;
+    lines: 6;
+    scrollbar: false;
+  }
+element{
+    background-color: transparent;
+    text-color: @text;
+  }
+element normal.normal{
+    background-color: @surface1;
+    text-color:@text;
+  }
+element alternate.normal{
+    background-color: @surface0;
+    text-color: @text;
+  }
+element selected.normal{
+    background-color: @blue;
+    text-color: #000000FF;
+  }
+

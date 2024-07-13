@@ -1,0 +1,77 @@
+*{
+    font: "JetBrainsMono Nerd Font 12";
+    wbg-color: #11111BFF;
+    base: #1e1e2eff;
+    surface0: #313244FF;
+    surface1: #45475A50;
+    blue: #89B4FAFF;
+    overlay0: #6C7086FF;
+    text: #CDD6F4FF;
+    text50: #cdd6F450;
+  }
+
+configuration {
+    modi: "drun";
+    show-icons: true;
+    display-drun: "  ";
+  }
+
+listview {
+    columns: 1;
+    lines: 7;
+    scrollbar: false;
+  }
+
+window{
+    width: 450px;
+    background-color: @base;
+    border-color: @blue;
+    border-radius: 10;
+    padding: 10;
+    fixed-height: true;
+    fixed-width: true;
+  }
+
+mainbox{
+    margin:4px;
+  }
+
+prompt {
+    text-color: #FFFFFFFF;
+  }
+inputbar{
+  children: ["prompt","entry"];
+    spacing: 8px;
+  }
+entry{
+    text-color: @text;
+    font: @font;
+    placeholder: "Search Apps";
+    placeholder-color: @text50;
+  }
+
+element{
+    background-color: transparent;
+    text-color: @text;
+    border-radius: 5;
+    spacing: 10px;
+    margin:1px 0;
+  }
+
+element normal.normal{
+    background-color: @surface1;
+    text-color: @text;
+  }
+element alternate.normal{
+    background-color: @surface0 ; 
+    text-color: @text;
+  }
+element selected.normal{
+    background-color: @blue;
+    text-color: #000000FF;
+  }
+
+message{
+    background-color: red;
+    border: 10px solid;
+  }

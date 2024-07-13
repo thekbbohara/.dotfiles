@@ -1,0 +1,60 @@
+-- set <space> as leader key
+vim.g.mapleader = ' '
+vim.g.maplocalleader = ' '
+
+vim.g.have_nerd_font = true
+
+--[[ Setting options ]]
+--see `:help vim.opt` `:help option-list`
+
+-- make line number default
+vim.opt.number = true
+vim.opt.relativenumber = false
+
+-- Disable mouse
+vim.opt.mouse = ''
+
+-- Don't show the mode
+vim.opt.showmode = false
+
+-- Sync clipboard between OS and neovim
+-- `:help clipboard`
+vim.opt.clipboard = 'unnamedplus'
+
+-- Enable break indent
+vim.opt.breakindent = true
+
+-- save undo history
+vim.opt.undofile = true
+
+-- Case-insensitive searching UNLESS \c or one or more capital letter in the search term
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+
+-- Keep signcolumn on by default
+vim.opt.signcolumn = 'yes'
+
+-- Decrease update time
+vim.opt.updatetime = 250
+
+-- Decrese mapped sequence wait time
+-- Displays which-key popped up sonner
+vim.opt.timeoutlen = 300
+
+-- Configure how neo vim splits should be opened
+vim.opt.splitright = true
+vim.opt.splitbelow = true
+
+-- Sets how neo vim display certain whitespace characters in the editor
+-- See `:help 'list'`
+-- add `:help 'listchars'`
+vim.opt.list = true
+vim.opt.listchars = {tab = '>>', trail = '.', nbsp = '|_|'}
+
+-- Preview substitutions live, as you type
+vim.opt.inccommand = 'split'
+
+-- Show which line your cursor is on
+-- vim.opot.cursorline = true
+--
+--

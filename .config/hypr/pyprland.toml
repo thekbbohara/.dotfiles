@@ -1,0 +1,13 @@
+[pyprland]
+plugins = ["scratchpads","magnify"]
+
+[scratchpads.term]
+animation = "fromTop"
+command = "alacritty --class scratchpad"
+margin = 50
+
+[scratchpads.chrome]
+animation = "fromTop"
+command = "sh google-chrome-stable --class scratchpad"
+margin = 50
+

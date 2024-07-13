@@ -1,0 +1,41 @@
+#--------------
+alias startx='startx ~/.config/x11/.xinitrc'
+#--------------
+
+
+# Aliases
+alias ls='exa --icons'
+alias lsa='exa --icons -a'
+alias lsl='exa --icons -l'
+alias lsd='exa --icons -D'
+alias lsf='exa --icons -f'
+
+alias vim='nvim'
+alias vi='nvim'
+alias v='nvim'
+alias lvim='NVIM_APPNAME=lazyVim nvim'
+
+
+alias pac='sudo pacman -S'
+alias Syu='sudo pacman -Syu'
+alias nodemon='npx nodemon'
+alias c='clear'
+alias :q='exit'
+alias tmux='tmux -f ~/.config/tmux/tmux.conf'
+alias ..='cd ..'
+alias fzf='fzf --preview="bat --color=always {}"'
+alias vimf='vim $(fzf)'
+# bashScripts alias
+alias copy=~/bashScripts/copy.sh
+alias cpf='~/bashScripts/copy.sh $(fzf)'
+alias rename='~/bashScripts/rename.sh'
+alias pipes='bash ~/pipes/pipes.sh'
+alias speak='bash $HOME/piper/scripts/speak.sh'
+alias kira='bash $HOME/piper/scripts/kira.sh'
+# config file shortcut
+alias hyprConf='vim ~/.config/hypr/hyprland.conf'
+alias keybindConf='vim ~/.config/hypr/keybindings.conf'
+
+alias 'alias-e'='vim ~/.alias'
+
+
