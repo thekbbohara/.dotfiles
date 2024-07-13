@@ -38,10 +38,10 @@ return {
 				end,
 			},
 			mapping = {
-				["<C-n>"] = cmp.mapping.select_next_item(),
-				["<C-p>"] = cmp.mapping.select_prev_item(),
-				["<C-y>"] = cmp.mapping.confirm({ select = true }),
-				["<C-e>"] = cmp.mapping.close(),
+				["<A-n>"] = cmp.mapping.select_next_item(),
+				["<A-p>"] = cmp.mapping.select_prev_item(),
+				["<A-y>"] = cmp.mapping.confirm({ select = true }),
+				["<A-e>"] = cmp.mapping.close(),
 			},
 			sources = {
 				{ name = "luasnip" },

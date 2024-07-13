@@ -18,11 +18,12 @@ local parse = require("luasnip.util.parser").parse_snippet
 return {
 	ls.add_snippets("javascript", {
 		-- console .log
-		s("log", {
+		s("console.log", {
 			t('console.log("'),
 			i(1, "msg"),
 			t('");'),
 		}),
+
 		-- ternary operator snippet
 		parse("ternary", "${1:if}?${2:then}:${3:else}"),
 		-- function
@@ -31,5 +32,7 @@ return {
 		parse("afn", "const ${1:afn} = (${2:e}) => {\n ${0:return}\n}"),
 		-- class
 		parse("class", "class ${1:Class}{\n  constructor(${2:x}){\n    this.${3:x}\n  }\n}"),
+		-- constructor
+		parse("constructor", "constructor(${1:x}){\n   this.${0:x}\n }"),
 	}),
 }
