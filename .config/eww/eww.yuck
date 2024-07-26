@@ -1,0 +1,47 @@
+;include
+
+; polls
+(defpoll battery :interval "60s" "scripts/batteryInfo.sh")
+
+;; split poll output in seperate variable
+(defpoll isCharging :interval "60s" "scripts/batteryInfo.sh isCharging")
+
+
+; window
+(
+  defwindow batteryInfo
+  :monitor 0
+  :geometry
+
+  (
+    geometry
+    :anchor "top right"
+    :x "1"
+    :y "1"
+    :width "5%"
+    :height "4%"
+  )
+  ; wayland
+  :stacking "overlay" ; possible values : fg, bg,overlay, button
+  :exclusive "false" ; Whether the compositer should reserve space for window
+  ;:namespace "??" ; set wayland
+  ;"🔋 90%"
+  (batteryInfo)
+)
+
+(
+  defwidget batteryInfo []
+  (
+    box
+    :spacing "0"
+    :orientation "h"
+    :space-evenly "false"
+    (label :text isCharging)
+    (label :text " ")
+    (label :text battery)
+    (label :text "%")
+  )
+
+)
+
+

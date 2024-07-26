@@ -1,0 +1,1 @@
+(defpoll battery_percent :interval "60s" "scripts/batteryInfo.sh")
