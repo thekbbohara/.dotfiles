@@ -34,5 +34,14 @@ return {
 		parse("class", "class ${1:Class}{\n  constructor(${2:x}){\n    this.${3:x}\n  }\n}"),
 		-- constructor
 		parse("constructor", "constructor(${1:x}){\n   this.${0:x}\n }"),
+		-- updateCanvasWidthAndHeight
+		parse(
+			"fn-updateCanvasWidthAndHeight",
+			"function updateCanvasWidthAndHeight() {\n  canvas.width = window.innerWidth;\n  canvas.height = window.innerHeight;\n  canvasWidth = canvas.width;\n  canvasHeight = canvas.height;\n}"
+		),
+		-- canvas resize -event
+		parse("event-resize", "${2:window}.addEventListener('resize',(e)=>{${1}})"),
+		--canvas render function
+		parse("fn-render", "function render(){\n  requestAnimationFrame(render);\n}"),
 	}),
 }

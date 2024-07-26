@@ -1,0 +1,3 @@
+#!/bin/bash
+
+notify-send "Power Status" "AC Power has been plugged in."
