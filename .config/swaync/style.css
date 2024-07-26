@@ -119,7 +119,7 @@
   /* Notification summary/title */
   font-size: 16px;
   font-weight: bold;
-  background: transparent;
+  background: red;
   color: @text-color;
   text-shadow: none;
 }
@@ -310,6 +310,7 @@
   color: @text-color;
   margin: 8px;
   font-size: 1.5rem;
+  background: red;
 }
 
 .widget-title > button {
