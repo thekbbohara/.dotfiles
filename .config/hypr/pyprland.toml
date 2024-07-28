@@ -3,11 +3,11 @@ plugins = ["scratchpads","magnify"]
 
 [scratchpads.term]
 animation = "fromTop"
-command = "alacritty --class scratchpad"
+command = "alacritty --class=terminal"
 margin = 50
 
 [scratchpads.chrome]
 animation = "fromTop"
-command = "sh google-chrome-stable --class scratchpad"
+command = "google-chrome-stable --class=browser"
 margin = 50
 
