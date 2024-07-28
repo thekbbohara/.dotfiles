@@ -1,5 +1,5 @@
 #--------------
-alias startx='startx ~/.config/x11/.xinitrc'
+#alias startx='startx ~/.config/x11/.xinitrc'
 #--------------
 
 
@@ -38,4 +38,4 @@ alias keybindConf='vim ~/.config/hypr/keybindings.conf'
 
 alias 'alias-e'='vim ~/.alias'
 
-
+alias 'list-icons'='ls /usr/share/icons/**/*.png | awk -F "/" '\''{print $8}'\'''
