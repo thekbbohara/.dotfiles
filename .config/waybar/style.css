@@ -1,0 +1,61 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family:jetBrainsMono, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight:700;
+}
+
+window{
+  background-color: transparent;
+  color:#cdd6f4;
+}
+#cpu {
+  background-color:#11111b;
+  border-radius: 25px;
+  padding:0 15px;
+  color:#f38ba8;
+}
+#custom-volume,#pulseaudio{
+  background-color:#11111b;
+  border-radius: 25px;
+  padding:0 15px;
+  margin:0 5px;
+  color:#f9e2af;
+}
+#battery{
+  background-color:#11111b;
+  border-radius: 25px;
+  padding:0 15px;
+  color:#a6e3a1;
+}
+#workspaces button{
+  color:#cdd6f4;
+  opacity: 0.3;
+}
+#workspaces button.active{
+ background: #eba0ac; 
+  opacity:1;
+  color:#11111b;
+  font-weight:900;
+  border-radius:30px;
+  padding:0 15px;
+}
+#custom-bluetooth{
+  background-color: #11111b;
+  border-radius:30px;
+  padding: 0 15px;
+  color:#89b4fa;
+}
+#network{
+  background-color:#11111b;
+  border-radius: 25px;
+  padding:0 15px;
+  color:#f5c2e7;
+  margin:0 5px;
+}
+#custom-clock{
+  background-color:#11111b;
+  border-radius: 25px;
+  padding: 0 15px;
+  color: #fab387;
+}

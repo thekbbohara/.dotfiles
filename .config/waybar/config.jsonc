@@ -1,0 +1,116 @@
+// -*- mode: jsonc -*-
+{
+    //"layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 30, // Waybar height (to be removed for auto height)
+    // "width": 1280, // Waybar width
+    "spacing": 4, // Gaps between modules (4px)
+    // Choose the order of the modules
+  "margin":"3px 3px",
+  "reload_style_on_change":true,
+  "modules-left":[
+    "cpu",
+    //"custom/volume",
+    "pulseaudio",
+    "cava",
+    "battery",
+    "mpd"
+  ],
+  "modules-center":[
+    "hyprland/workspaces",
+  ],
+  "modules-right":[
+    "custom/bluetooth",
+    "network",
+    "custom/clock"
+  ],
+ // Modules configuration
+  "battery": {
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}% ",
+        "format-full": "{icon} {capacity}%",
+        "format-charging": "  {capacity}% ",
+        "format-plugged": " {capacity}% ",
+        "format-alt": "{icon} {time}",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["  ", "  ", "  ", "  ", "  "],
+        "interval":1
+    },
+    "cpu": {
+        "format": "{usage}% ",
+        "tooltip": false,
+        "on-click":"alacritty -e btop"
+    },
+    "custom/volume": {
+        "format": "{}  ",
+        "exec": "pactl get-sink-volume @DEFAULT_SINK@ | awk '{print $5}'",
+        "interval":1
+    },
+    "pulseaudio": {
+    "states": {
+            "muted": 0,
+            "good": 55,
+            "full": 100,
+        },
+	    "format": "{volume}% {icon}",
+      "format-bluetooth": "{volume}% ",
+      "format-muted": " ",
+      "format-good":"{volume}%  ",
+      "format-full":"{volume}%  ",
+      "format-icons": {
+        "alsa_output.pci-0000_00_1f.3.analog-stereo": " ",
+        "alsa_output.pci-0000_00_1f.3.analog-stereo-muted": " ",
+        "headphones": " ",
+        "handsfree": " ",
+        "headset": " ",
+        "phone": " ",
+        "phone-muted": " ",
+        "portable": " ",
+        "car": " ",
+        "default": [" ", " "]
+      },
+      "scroll-step": 1,
+      "on-click": "pavucontrol"
+    },
+    "mpd":{
+      "format":"󰎇 {title}",
+      "format-disconnected": "󰝛 ",
+	    "format-stopped": "  ",
+      "max-length":25,
+      "on-click":"alacritty --class=terminal -e ncmpcpp",
+    },
+    "hyprland/workspaces":{
+      "format":"{}",
+    },
+    "custom/bluetooth":{
+        "exec":"bluetoothctl info $(bluetoothctl devices Connected | awk '{print $2}') | grep Battery | awk '{print $4}'",
+        "hide-empty-text":true,
+        "format":"󰂯 {}",
+        "interval":10
+    },
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "   ({signalStrength}%)",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "󱛅 ",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    },
+    "custom/clock": {
+        // "timezone": "America/New_York",
+        "format": "  {}",
+        "exec":"/home/kb/.config/waybar/sctipts/clock.sh",
+        "tooltip":"{}",    
+       "return-type":"json", 
+      "interval":60,
+  },
+
+
+}
+
