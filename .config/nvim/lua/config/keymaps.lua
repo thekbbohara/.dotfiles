@@ -8,6 +8,16 @@ vim.g.mapleader = " "
 local keymap = vim.keymap
 local opts = { noremap = true, silent = true }
 
+-- write and quit with leader w/q
+keymap.set("n","<leader>w",":w<cr>",opts)
+keymap.set("n","<leader>wq",":wq<cr>",opts)
+
+-- open :NvimTree with leader nt
+keymap.set("n","<leader>nt",":NvimTreeOpen<cr>")
+
+-- go to command mode with esc from normal mode
+keymap.set("n","<Esc>",":")
+
 -- insert to normalkeymap
 keymap.set("i", "jk", "<Esc>")
 keymap.set("i", "<C-j>", "<Esc>ja", opts)
@@ -17,10 +27,10 @@ keymap.set("i", "<C-l>", "<Esc>la", opts)
 
 -- move lines up an down
 -- for insert mode
-keymap.set({ "i", "n" }, "<C-S-J>", "<Esc>:m+<cr>", opts)
-keymap.set({ "i", "n" }, "<C-S-K>", "<Esc>:m-2<cr>", opts)
-keymap.set("i", "<C-S-H>", "<Esc>^i", opts)
-keymap.set("i", "<C-S-L>", "<Esc>$a", opts)
+keymap.set({ "i", "n" }, "<C-J>", "<Esc>:m+<cr>", opts)
+keymap.set({ "i", "n" }, "<C-K>", "<Esc>:m-2<cr>", opts)
+keymap.set("i", "<C-H>", "<Esc>^i", opts)
+keymap.set("i", "<C-L>", "<Esc>$a", opts)
 
 -- moves oneword forward or backward
 keymap.set("i", "<C-w>", "<Esc>wli", opts)
@@ -28,7 +38,7 @@ keymap.set("i", "<C-b>", "<Esc>bi", opts)
 
 -- delete in _ reg
 keymap.set({ "v", "n" }, "x", '"_x', opts)
-keymap.set({ "n", "v" }, "xd", '"_dd', opts)
+keymap.set({ "n", "v" }, "dx", '"_dd', opts)
 
 --select all
 keymap.set("n", "<C-a>", "gg0vG$", opts)
