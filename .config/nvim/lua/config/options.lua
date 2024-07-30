@@ -23,7 +23,7 @@ vim.opt.autoindent = true
 vim.opt.smartindent = true
 
 -- Enable break indent
-vim.opt.breakindent = true
+-- vim.opt.breakindent = true
 
 -- Make line numbers default
 vim.opt.number = true
