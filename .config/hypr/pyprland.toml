@@ -3,7 +3,7 @@ plugins = ["scratchpads","magnify"]
 
 [scratchpads.term]
 animation = "fromTop"
-command = "alacritty --class=terminal"
+command = "kitty --class=terminal"
 margin = 50
 
 [scratchpads.chrome]
