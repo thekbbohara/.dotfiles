@@ -15,6 +15,11 @@ alias vi='nvim'
 alias v='nvim'
 alias lvim='NVIM_APPNAME=lazyVim nvim'
 
+alias zed='~/.local/bin/zed'
+alias 'sudo zed'='sudo ~/.local/bin/zed'
+alias bun='~/.bun/bin/bun'
+alias bunx='~/.bun/bin/bunx'
+alias spfyui='node /home/kb/Documents/projects/spfyui/dist/index.js'
 
 alias pac='sudo pacman -S'
 alias Syu='sudo pacman -Syu'
@@ -37,5 +42,5 @@ alias hyprConf='vim ~/.config/hypr/hyprland.conf'
 alias keybindConf='vim ~/.config/hypr/keybindings.conf'
 
 alias 'alias-e'='vim ~/.alias'
-
+alias 'ts-run'='node --loader ts-node/esm'
 alias 'list-icons'='ls /usr/share/icons/**/*.png | awk -F "/" '\''{print $8}'\'''
