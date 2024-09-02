@@ -1,9 +1,9 @@
 sw_volume: 100
 audio_device_state:1:My PulseAudio Output
-state: pause
-current: 185
-time: 4.448000
-random: 0
+state: play
+current: 49
+time: 120.069000
+random: 1
 repeat: 0
 single: 0
 consume: 0
@@ -196,12 +196,12 @@ playlist_begin
 182:05. IVE - WOW_LdZaNsAmOC8.mp3
 183:06. IVE - RESET_82fiBG45e28.mp3
 184:AUR - NO WAY TO NOWHERE - Raffey - Usama - Ahad (Official Music Video)_G2vAGaemIaI.mp3
-185:AUR - SHIKAYAT - Raffey - Usama - Ahad (Official Music Video)_QxddU3sjVRY.mp3
-186:AUR - TU HAI KAHAN - Raffey - Usama - Ahad (Official Music Video)_AX6OrbgS8lI.mp3
-187:BAEKHYUN 백현 'UN Village' MV_-EfjXQgE1e8.mp3
-188:CHEN & PUNCH - 'EVERYTIME' DOTS OST (EASY LYRICS)_whpZ4XZYvE4.mp3
-189:CHINTA TRIBAL RAIN_eARHYHeH2Gk.mp3
-190:CROWN _ Introduction _ New Life Album _ King_nbNbfiJszHw.mp3
+185:BAEKHYUN 백현 'UN Village' MV_-EfjXQgE1e8.mp3
+186:AUR - SHIKAYAT - Raffey - Usama - Ahad (Official Music Video)_QxddU3sjVRY.mp3
+187:CHEN & PUNCH - 'EVERYTIME' DOTS OST (EASY LYRICS)_whpZ4XZYvE4.mp3
+188:CHINTA TRIBAL RAIN_eARHYHeH2Gk.mp3
+189:CROWN _ Introduction _ New Life Album _ King_nbNbfiJszHw.mp3
+190:AUR - TU HAI KAHAN - Raffey - Usama - Ahad (Official Music Video)_AX6OrbgS8lI.mp3
 191:CRUSH (크러쉬) - _Beautiful (Golbin OST Pt.4)_ (Color Coded Lyrics Eng_Rom_Han_가사)_5_hE3XzxOYc.mp3
 192:Coolio - Gangsta's Paradise (feat. L.V.) [Official Music Video]_fPO76Jlnz6c.mp3
 193:EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3
