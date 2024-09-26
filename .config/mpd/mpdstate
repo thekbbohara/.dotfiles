@@ -1,8 +1,8 @@
 sw_volume: 100
 audio_device_state:1:My PulseAudio Output
-state: play
-current: 49
-time: 120.069000
+state: pause
+current: 159
+time: 187.090000
 random: 1
 repeat: 0
 single: 0
@@ -45,16 +45,16 @@ playlist_begin
 31:Sajjan Raj Vaidya - Suna Kaanchi [Official Release]_17l66cbys_M.mp3
 32:Sugam Pokharel - Jadai Chu Tadha _ Monsoon & Dorje ft. Bishow cover_DswmXPSh8No.mp3
 33:Talha Anjum - At The Top _ Prod. by Umair (Official Audio)_W0JMngTSw6A.mp3
-34:Talha Anjum - Happy Hour _ Prod. by Jokhay (Official Audio)_wedNGWk-l0A.mp3
-35:Talha Anjum - Two Tone _ Prod. by Umair (Official Audio)_ya-ZdFansMo.mp3
-36:Tiger JK - Reset (Feat. Jinsil 진실 Of Mad Soul Child)_uTvDTZc4Agw.mp3
-37:Yoon Mirae (윤미래) - Always Lyrics (Han_Rom_Eng)_iUG-_sK-tBs.mp3
-38:[MV] CHEEZE(치즈) _ Today's Mood(오늘의 기분).mp3
-39:[MV] DAVICHI(다비치) - This Love(이 사랑) l Descendants of the Sun 태양의 후예 OST_XyzaMpAVm3s.mp3
-40:[MV] Gummy(거미) - You Are My Everything l Descendants of the Sun 태양의 후예 OST_ToASX6axGuw.mp3
-41:[MV] Heize(헤이즈) - Hold Me Back(멈춰줘)_jRRCWFLAO6k.mp3
-42:[M_V] Janet Suhh(자넷서) - In Silence_yvhfxMVVNgQ.mp3
-43:[달의 연인 - 보보경심 려 OST Part 2] 로꼬, 펀치 (Loco, Punch) - Say Yes MV_6GC8JF2FOgA.mp3
+34:Talha Anjum - Two Tone _ Prod. by Umair (Official Audio)_ya-ZdFansMo.mp3
+35:Tiger JK - Reset (Feat. Jinsil 진실 Of Mad Soul Child)_uTvDTZc4Agw.mp3
+36:Yoon Mirae (윤미래) - Always Lyrics (Han_Rom_Eng)_iUG-_sK-tBs.mp3
+37:[MV] CHEEZE(치즈) _ Today's Mood(오늘의 기분).mp3
+38:[MV] DAVICHI(다비치) - This Love(이 사랑) l Descendants of the Sun 태양의 후예 OST_XyzaMpAVm3s.mp3
+39:[MV] Gummy(거미) - You Are My Everything l Descendants of the Sun 태양의 후예 OST_ToASX6axGuw.mp3
+40:[MV] Heize(헤이즈) - Hold Me Back(멈춰줘)_jRRCWFLAO6k.mp3
+41:[M_V] Janet Suhh(자넷서) - In Silence_yvhfxMVVNgQ.mp3
+42:[달의 연인 - 보보경심 려 OST Part 2] 로꼬, 펀치 (Loco, Punch) - Say Yes MV_6GC8JF2FOgA.mp3
+43:Talha Anjum - Happy Hour _ Prod. by Jokhay (Official Audio)_wedNGWk-l0A.mp3
 44:basantaa_MBhZCx_EUwI.mp3
 45:샤이니 SHINee - STAND BY ME (Boys Over Flowers OST) (Han_Rom_Eng) Lyrics_BR-ynPJ1dj0.mp3
 46:파라다이스 Paradise_YFrjy7uAS48.mp3
