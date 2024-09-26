@@ -10,6 +10,10 @@ alias lsl='exa --icons -l'
 alias lsd='exa --icons -D'
 alias lsf='exa --icons -f'
 
+#git 
+alias gs='git status'
+alias gcm='git commit -m'
+#tools
 alias vim='nvim'
 alias vi='nvim'
 alias v='nvim'
@@ -20,8 +24,9 @@ alias zen='~/AppImage/zen-specific.AppImage'
 alias 'sudo zed'='sudo ~/.local/bin/zed'
 alias bun='~/.bun/bin/bun'
 alias bunx='~/.bun/bin/bunx'
-# alias spfyui='node /home/kb/Documents/projects/spfyStudio/pkgs/spfyui/dist/index.js'
+alias spfy='node /home/kb/Documents/projects/spfyStudio/pkgs/spfyui/dist/index.js'
 
+#cmds
 alias pac='sudo pacman -S'
 alias Syu='sudo pacman -Syu'
 alias nodemon='npx nodemon'
