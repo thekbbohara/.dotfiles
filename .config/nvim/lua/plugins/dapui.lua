@@ -1,12 +1,10 @@
 return {
 	"rcarriga/nvim-dap-ui",
-	dependencies = { "mfussenegger/nvim-dap","nvim-neotest/nvim-nio" },
+	dependencies = { "mfussenegger/nvim-dap", "nvim-neotest/nvim-nio" },
 
 	config = function()
-		require("dapui").setup()
-
 		local dap, dapui = require("dap"), require("dapui")
-
+		dapui.setup()
 		dap.listeners.after.event_initialized["dapui_config"] = function()
 			dapui.open({})
 		end
@@ -17,6 +15,6 @@ return {
 			dapui.close({})
 		end
 
-		vim.keymap.set("n", "<leader>ui", require("dapui").toggle)
+		vim.keymap.set("n", "<leader>ui", dapui.toggle, {desc="toggle dapui"})
 	end,
 }

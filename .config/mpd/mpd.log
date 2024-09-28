@@ -311,3 +311,56 @@ Sep 26 12:15 : player: played "Kyun - Talha Anjum feat. Annural Khalid _ Prod. U
 Sep 26 12:18 : player: played "Kyun - Talha Anjum feat. Annural Khalid _ Prod. Umair (Official Audio)_EOa8UmVhw0c.mp3"
 Sep 26 12:44 : player: played "Kyun - Talha Anjum feat. Annural Khalid _ Prod. Umair (Official Audio)_EOa8UmVhw0c.mp3"
 Sep 26 12:58 : exception: Failed to decode /home/kb/Medias/Music/[MV] Heize(헤이즈) - Hold Me Back(멈춰줘)_jRRCWFLAO6k.mp3; Failed to open '/home/kb/Medias/Music/[MV] Heize(헤이즈) - Hold Me Back(멈춰줘)_jRRCWFLAO6k.mp3': No such file or directory
+Sep 26 15:32 : player: played "Kyun - Talha Anjum feat. Annural Khalid _ Prod. Umair (Official Audio)_EOa8UmVhw0c.mp3"
+Sep 26 23:18 : player: played "Kyun - Talha Anjum feat. Annural Khalid _ Prod. Umair (Official Audio)_EOa8UmVhw0c.mp3"
+Sep 27 07:50 : exception: Failed to decode /home/kb/Medias/Music/[MV] CHEEZE(치즈) _ Today's Mood(오늘의 기분).mp3; Failed to open '/home/kb/Medias/Music/[MV] CHEEZE(치즈) _ Today's Mood(오늘의 기분).mp3': No such file or directory
+Sep 28 00:41 : player: played "Kyun - Talha Anjum feat. Annural Khalid _ Prod. Umair (Official Audio)_EOa8UmVhw0c.mp3"
+Sep 28 14:24 : player: played "Kyun - Talha Anjum feat. Annural Khalid _ Prod. Umair (Official Audio)_EOa8UmVhw0c.mp3"
+Sep 28 15:25 : exception: Failed to decode /home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3; Failed to open '/home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3': No such file or directory
+Sep 28 16:21 : player: played "Kyun - Talha Anjum feat. Annural Khalid _ Prod. Umair (Official Audio)_EOa8UmVhw0c.mp3"
+Sep 28 16:56 : player: played "Kyun - Talha Anjum feat. Annural Khalid _ Prod. Umair (Official Audio)_EOa8UmVhw0c.mp3"
+Sep 28 17:07 : player: played "Kyun - Talha Anjum feat. Annural Khalid _ Prod. Umair (Official Audio)_EOa8UmVhw0c.mp3"
+Sep 28 17:09 : exception: Failed to decode /home/kb/Medias/Music/[MV] Heize(헤이즈) - Hold Me Back(멈춰줘)_jRRCWFLAO6k.mp3; Failed to open '/home/kb/Medias/Music/[MV] Heize(헤이즈) - Hold Me Back(멈춰줘)_jRRCWFLAO6k.mp3': No such file or directory
+Sep 28 17:10 : player: played "05. IVE - WOW_LdZaNsAmOC8.mp3"
+Sep 28 17:10 : player: played "[MV] Heize(헤이즈) - Hold Me Back(멈춰줘)_jRRCWFLAO6k.mp3"
+Sep 28 17:13 : exception: Failed to commit /home/kb/.config/mpd/mpdstate: File exists
+Sep 28 17:13 : player: played "AUR - TU HAI KAHAN - Raffey - Usama - Ahad (Official Music Video)_AX6OrbgS8lI.mp3"
+Sep 28 17:13 : player: played "AUR - TU HAI KAHAN - Raffey - Usama - Ahad (Official Music Video)_AX6OrbgS8lI.mp3"
+Sep 28 17:14 : player: played "AUR - TU HAI KAHAN - Raffey - Usama - Ahad (Official Music Video)_AX6OrbgS8lI.mp3"
+Sep 28 17:35 : exception: Failed to decode /home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3; Failed to open '/home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3': No such file or directory
+Sep 28 17:35 : player: played "EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3"
+Sep 28 17:35 : exception: Failed to decode /home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3; Failed to open '/home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3': No such file or directory
+Sep 28 17:35 : player: played "EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3"
+Sep 28 17:35 : exception: Failed to decode /home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3; Failed to open '/home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3': No such file or directory
+Sep 28 17:35 : exception: Failed to decode /home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3; Failed to open '/home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3': No such file or directory
+Sep 28 17:35 : player: played "EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3"
+Sep 28 17:35 : exception: Failed to decode /home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3; Failed to open '/home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3': No such file or directory
+Sep 28 17:35 : exception: Failed to decode /home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3; Failed to open '/home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3': No such file or directory
+Sep 28 17:35 : player: played "EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3"
+Sep 28 17:35 : exception: Failed to decode /home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3; Failed to open '/home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3': No such file or directory
+Sep 28 17:35 : exception: Failed to decode /home/kb/Medias/Music/[M_V] Janet Suhh(자넷서) - In Silence_yvhfxMVVNgQ.mp3; Failed to open '/home/kb/Medias/Music/[M_V] Janet Suhh(자넷서) - In Silence_yvhfxMVVNgQ.mp3': No such file or directory
+Sep 28 17:35 : player: played "[M_V] Janet Suhh(자넷서) - In Silence_yvhfxMVVNgQ.mp3"
+Sep 28 17:35 : exception: Failed to decode /home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3; Failed to open '/home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3': No such file or directory
+Sep 28 17:35 : player: played "EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3"
+Sep 28 17:35 : exception: Failed to decode /home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3; Failed to open '/home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3': No such file or directory
+Sep 28 17:35 : exception: Failed to decode /home/kb/Medias/Music/CHEN & PUNCH - 'EVERYTIME' DOTS OST (EASY LYRICS)_whpZ4XZYvE4.mp3; Failed to open '/home/kb/Medias/Music/CHEN & PUNCH - 'EVERYTIME' DOTS OST (EASY LYRICS)_whpZ4XZYvE4.mp3': No such file or directory
+Sep 28 17:35 : player: played "CHEN & PUNCH - 'EVERYTIME' DOTS OST (EASY LYRICS)_whpZ4XZYvE4.mp3"
+Sep 28 17:35 : exception: Failed to decode /home/kb/Medias/Music/CHEN & PUNCH - 'EVERYTIME' DOTS OST (EASY LYRICS)_whpZ4XZYvE4.mp3; Failed to open '/home/kb/Medias/Music/CHEN & PUNCH - 'EVERYTIME' DOTS OST (EASY LYRICS)_whpZ4XZYvE4.mp3': No such file or directory
+Sep 28 17:35 : player: played "CHEN & PUNCH - 'EVERYTIME' DOTS OST (EASY LYRICS)_whpZ4XZYvE4.mp3"
+Sep 28 17:35 : exception: Failed to decode /home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3; Failed to open '/home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3': No such file or directory
+Sep 28 17:35 : player: played "EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3"
+Sep 28 17:35 : exception: Failed to decode /home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3; Failed to open '/home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3': No such file or directory
+Sep 28 17:35 : exception: Failed to decode /home/kb/Medias/Music/BAEKHYUN 백현 'UN Village' MV_-EfjXQgE1e8.mp3; Failed to open '/home/kb/Medias/Music/BAEKHYUN 백현 'UN Village' MV_-EfjXQgE1e8.mp3': No such file or directory
+Sep 28 17:35 : exception: Failed to decode /home/kb/Medias/Music/LOVE SCENARIO (사랑을 했다)_OmEPFmyKO74.mp3; Failed to open '/home/kb/Medias/Music/LOVE SCENARIO (사랑을 했다)_OmEPFmyKO74.mp3': No such file or directory
+Sep 28 17:35 : player: played "BAEKHYUN 백현 'UN Village' MV_-EfjXQgE1e8.mp3"
+Sep 28 17:35 : exception: Failed to decode /home/kb/Medias/Music/LOVE SCENARIO (사랑을 했다)_OmEPFmyKO74.mp3; Failed to open '/home/kb/Medias/Music/LOVE SCENARIO (사랑을 했다)_OmEPFmyKO74.mp3': No such file or directory
+Sep 28 17:35 : player: played "LOVE SCENARIO (사랑을 했다)_OmEPFmyKO74.mp3"
+Sep 28 17:35 : exception: Failed to decode /home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3; Failed to open '/home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3': No such file or directory
+Sep 28 17:35 : player: played "EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3"
+Sep 28 17:35 : exception: Failed to decode /home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3; Failed to open '/home/kb/Medias/Music/EXO (엑소) - 'Electric Kiss' Lyrics [Color Coded KAN_ROM_ENG]_rl8hFZACMvE.mp3': No such file or directory
+Sep 28 17:35 : exception: Failed to decode /home/kb/Medias/Music/Sugam Pokharel - Jadai Chu Tadha _ Monsoon & Dorje ft. Bishow cover_DswmXPSh8No.mp3; Failed to open '/home/kb/Medias/Music/Sugam Pokharel - Jadai Chu Tadha _ Monsoon & Dorje ft. Bishow cover_DswmXPSh8No.mp3': No such file or directory
+Sep 28 17:35 : player: played "Sugam Pokharel - Jadai Chu Tadha _ Monsoon & Dorje ft. Bishow cover_DswmXPSh8No.mp3"
+Sep 28 17:35 : exception: Failed to decode /home/kb/Medias/Music/[MV] CHEEZE(치즈) _ Today's Mood(오늘의 기분).mp3; Failed to open '/home/kb/Medias/Music/[MV] CHEEZE(치즈) _ Today's Mood(오늘의 기분).mp3': No such file or directory
+Sep 28 17:35 : player: played "[MV] CHEEZE(치즈) _ Today's Mood(오늘의 기분).mp3"
+Sep 28 17:57 : player: played "Sajjan Raj Vaidya - Suna Kaanchi [Official Release]_17l66cbys_M.mp3"
+Sep 28 18:01 : player: played "AUR - SHIKAYAT - Raffey - Usama - Ahad (Official Music Video)_QxddU3sjVRY.mp3"

@@ -1,3 +1,2 @@
-**/*.log
-*.log
 mpd.log
+mpd.pid

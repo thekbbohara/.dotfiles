@@ -39,7 +39,6 @@ keymap.set({ "i", "n" }, "<C-S-K>", "<Esc>:m-2<cr>", opts)
 -- moves oneword forward or backward
 keymap.set("i", "<C-w>", "<Esc>wli", opts)
 keymap.set("i", "<C-b>", "<Esc>bi", opts)
-
 -- delete in _ reg
 keymap.set({ "v", "n" }, "x", '"_x', opts)
 keymap.set({ "n", "v" }, "dx", '"_dd', opts)
@@ -54,3 +53,8 @@ keymap.set("n", "-", "<C-x>")
 -- Split
 keymap.set("n", "ss", ":vsplit<cr>", opts)
 keymap.set("n", "sh", ":split<cr>", opts)
+
+-- open [link] in browser
+keymap.set({ "v", "n" }, "gx", function()
+	vim.cmd("Browse")
+end)

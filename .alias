@@ -40,7 +40,7 @@ alias vimf='vim $(fzf)'
 alias copy=~/bashScripts/copy.sh
 alias cpf='~/bashScripts/copy.sh $(fzf)'
 alias rename='~/bashScripts/rename.sh'
-alias pipes='bash ~/pipes/pipes.sh'
+alias pipes='bash ~/tools/pipes/pipes.sh'
 alias speak='bash $HOME/piper/scripts/speak.sh'
 alias kira='bash $HOME/piper/scripts/kira.sh'
 # config file shortcut

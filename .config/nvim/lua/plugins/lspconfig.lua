@@ -14,10 +14,11 @@ return {
 			end
 			vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, { desc = "show code_action" })
 			vim.keymap.set("n", "gd", vim.lsp.buf.definition, { desc = "go to definition" })
-			vim.keymap.set("n", "<c-k>", vim.lsp.buf.hover, { desc = "Show hover information" })
-			vim.keymap.set("n", "<space>sh", vim.lsp.buf.signature_help, { desc = "Signature Help" })
+			vim.keymap.set("n", "<leader>sh", vim.lsp.buf.hover, { desc = "Show hover information" })
+			vim.keymap.set("n", "<C-i>", vim.lsp.buf.hover, { desc = "Show hover information" })
+			vim.keymap.set("n", "<leader>hsi", vim.lsp.buf.signature_help, { desc = "Signature Help" })
 			vim.keymap.set("n", "gr", vim.lsp.buf.references, { desc = "References" })
-			vim.keymap.set("n", "<leader>sd", vim.diagnostic.open_float, { desc = "Show Diagnostics" })
+			vim.keymap.set("n", "<leader>sdi", vim.diagnostic.open_float, { desc = "Show Diagnostics" })
 		end,
 	},
 }
