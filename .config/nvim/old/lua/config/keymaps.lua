@@ -1,8 +1,8 @@
--- Keymaps are automatically loaded on the VeryLazy event
--- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
--- Add any additional keymaps here
 -- Set <space> as the leader key
 -- See `:help mapleader`
+--  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
+vim.g.maplocalleader = " "
+vim.g.mapleader = " "
 
 -- key mapping
 local keymap = vim.keymap
@@ -53,3 +53,4 @@ keymap.set("n", "-", "<C-x>")
 -- Split
 keymap.set("n", "ss", ":vsplit<cr>", opts)
 keymap.set("n", "sh", ":split<cr>", opts)
+
