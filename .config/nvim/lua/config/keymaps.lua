@@ -1,19 +1,17 @@
--- Keymaps are automatically loaded on the VeryLazy event
--- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
--- Add any additional keymaps here
 -- Set <space> as the leader key
 -- See `:help mapleader`
-
+-- vim.g.maplocalleader = " "
+-- vim.g.mapleader = " "
 -- key mapping
 local keymap = vim.keymap
 local opts = { noremap = true, silent = true }
 
 -- write and quit with leader w/q
--- keymap.set("n","<leader>w",":w<cr>",opts) -- available on none-ls.lua
+keymap.set("n", "<leader>w", ":w<cr>", opts) -- available on none-ls.lua
 keymap.set("n", "<leader>q", ":wq<cr>", opts)
 
 -- open :NvimTree with leader nt
-keymap.set("n", "<leader>nt", ":NvimTreeOpen<cr>")
+-- keymap.set("n", "<leader>nt", ":NvimTreeOpen<cr>")
 
 -- go to command mode with esc from normal mode
 keymap.set("n", "<Esc>", ":")
@@ -24,10 +22,6 @@ vim.keymap.set("n", "<leader>bp", ":bprevious<CR>", { desc = "Previous Buffer" }
 
 -- insert to normalkeymap
 keymap.set("i", "jk", "<Esc>")
-keymap.set("i", "<C-j>", "<Esc>ja", opts)
-keymap.set("i", "<C-k>", "<Esc>ka", opts)
-keymap.set("i", "<C-h>", "<Esc>i", opts)
-keymap.set("i", "<C-l>", "<Esc>la", opts)
 
 -- move lines up an down
 -- for insert mode
