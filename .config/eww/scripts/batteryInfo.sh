@@ -12,4 +12,3 @@ if [[ "$1" == "isCharging" ]]; then
 else
   echo "$battery"
 fi
-

@@ -49,6 +49,8 @@ alias keybindConf='vim ~/.config/hypr/keybindings.conf'
 
 alias 'alias-e'='vim ~/.alias'
 alias 'ts-run'='node --loader ts-node/esm'
+alias py='python'
+alias py3='python3'
 alias 'list-icons'='ls /usr/share/icons/**/*.png | awk -F "/" '\''{print $8}'\'''
 
 
