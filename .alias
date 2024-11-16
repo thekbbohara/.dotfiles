@@ -23,6 +23,8 @@ alias zed='~/.local/bin/zed'
 alias zen='~/AppImage/zen-specific.AppImage'
 alias 'sudo zed'='sudo ~/.local/bin/zed'
 alias bun='~/.bun/bin/bun'
+alias npm='pnpm'
+alias npx='pnpx'
 alias bunx='~/.bun/bin/bunx'
 alias spfy='node /home/kb/Documents/projects/spfyStudio/pkgs/spfyui/dist/index.js'
 
