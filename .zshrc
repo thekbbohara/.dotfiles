@@ -94,6 +94,4 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
-source /usr/share/nvm/init-nvm.sh
 
-. "$HOME/.local/bin/env"
