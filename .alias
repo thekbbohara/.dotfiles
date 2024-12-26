@@ -20,7 +20,7 @@ alias v='nvim'
 alias lvim='NVIM_APPNAME=lazyVim nvim'
 alias cn='pnpx shadcn@latest'
 
-alias zed='~/.local/bin/zed'
+alias zed='zeditor'
 alias zen='~/AppImage/zen-specific.AppImage'
 alias 'sudo zed'='sudo ~/.local/bin/zed'
 alias bun='~/.bun/bin/bun'

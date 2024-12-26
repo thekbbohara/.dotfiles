@@ -10,7 +10,13 @@
     "context": "Workspace",
     "bindings": {
       "shift shift": "file_finder::Toggle",
-      "ctrl-t": "terminal_panel::ToggleFocus"
+      "ctrl-t": "workspace::ToggleBottomDock"
+    }
+  },
+  {
+    "context": "ProjectPanel && not_editing",
+    "bindings": {
+      "space f e": ["workspace::SendKeystrokes", "ctrl-alt-b"]
     }
   },
   {
@@ -31,7 +37,7 @@
     "bindings": {
       "space w": "workspace::Save",
       "ctrl-a": "editor::SelectAll",
-      "space n t": ["workspace::SendKeystrokes", "ctrl-shift-e"],
+      "space f e": ["workspace::SendKeystrokes", "ctrl-shift-e"],
       "s s": "pane::SplitRight",
       "s v": "pane::SplitDown"
     }
