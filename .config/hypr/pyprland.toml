@@ -1,13 +1,16 @@
 [pyprland]
 plugins = ["scratchpads","magnify"]
 
+
 [scratchpads.term]
-animation = "fromTop"
-command = "alacritty --class=terminal"
-margin = 50
+animation = "fromBottom"
+command = "alacritty --class float"
+class = "float"
+size = "40% 70%"
+position = "30% 25%"
+max_size = "1920px 100%"
 
 [scratchpads.chrome]
 animation = "fromTop"
 command = "google-chrome-stable --class=browser"
 margin = 50
-
