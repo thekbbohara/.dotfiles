@@ -13,6 +13,11 @@ alias lsf='exa --icons -f'
 #git 
 alias gs='git status'
 alias gcm='git commit -m'
+alias gd='git diff'
+alias gp='git pull'
+alias gP='git push'
+alias ga='git add'
+alias gm='git merge'
 #tools
 alias vim='nvim'
 alias vi='nvim'
@@ -24,9 +29,6 @@ alias zed='zeditor'
 alias zen='~/AppImage/zen-specific.AppImage'
 alias 'sudo zed'='sudo ~/.local/bin/zed'
 alias bun='~/.bun/bin/bun'
-alias npm='pnpm'
-alias npmg="npm"
-alias npx='pnpx'
 alias bunx='~/.bun/bin/bunx'
 alias spfy='node /home/kb/Documents/projects/spfyStudio/pkgs/spfyui/dist/index.js'
 
@@ -40,6 +42,9 @@ alias tmux='tmux -f ~/.config/tmux/tmux.conf'
 alias ..='cd ..'
 alias fzf='fzf --preview="bat --color=always {}"'
 alias vimf='vim $(fzf)'
+#spwan 
+alias kb-tunnel='alacritty -e bash -c "cloudflared tunnel run kb-tunnel" &'
+
 # bashScripts alias
 alias copy=~/bashScripts/copy.sh
 alias cpf='~/bashScripts/copy.sh $(fzf)'
@@ -47,9 +52,10 @@ alias rename='~/bashScripts/rename.sh'
 alias pipes='bash ~/tools/pipes/pipes.sh'
 alias speak='bash $HOME/piper/scripts/speak.sh'
 alias kira='bash $HOME/piper/scripts/kira.sh'
+
 # config file shortcut
 alias hyprConf='vim ~/.config/hypr/hyprland.conf'
-alias keybindConf='vim ~/.config/hypr/keybindings.conf'
+alias keybindConf='vim ~/.config/hypr/config/hyprkeybindings.conf'
 
 alias 'alias-e'='vim ~/.alias'
 alias 'ts-run'='node --loader ts-node/esm'
@@ -60,3 +66,5 @@ alias 'list-icons'='ls /usr/share/icons/**/*.png | awk -F "/" '\''{print $8}'\''
 
 #recorder
 alias 'wl-rec'='wl-screenrec --low-power=off'
+
+
