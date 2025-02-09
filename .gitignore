@@ -1,1 +1,8 @@
 .config/mpd/mpd.log
+.config/clipse/
+.config/dconf/
+.config/go/
+.config/google-chrome/
+.config/nvim/
+.config/user-dirs.dirs
+.config/user-dirs.locale

@@ -10,6 +10,8 @@ alias lsl='exa --icons -l'
 alias lsd='exa --icons -D'
 alias lsf='exa --icons -f'
 
+alias 'clone-bashScripts'='git clone https://github.com/thekbbohara/bashScripts'
+
 #git 
 alias gs='git status'
 alias gcm='git commit -m'
