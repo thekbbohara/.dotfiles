@@ -6,3 +6,7 @@
 .config/nvim/
 .config/user-dirs.dirs
 .config/user-dirs.locale
+.config/Google/
+.config/nextjs-nodejs/
+.config/obsidian/
+.config/speech-dispatcher/
