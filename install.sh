@@ -14,7 +14,7 @@ yay -S --needed ttf-firacode-nerd  --noconfirm
 
 # Install packages from AUR using yay (if not in pacman)
 echo "Installing AUR packages using yay..."
-yay -S --needed google-chrome pyprland clipse swww dracula-gtk-theme --noconfirm
+yay -S --needed google-chrome pyprland clipse swww loupe --noconfirm
 
 # Install zinit (Zsh plugin manager)
 # echo "Installing zinit..."
@@ -32,3 +32,5 @@ yay -S --needed google-chrome pyprland clipse swww dracula-gtk-theme --noconfirm
 # exec zsh
 
 yay -S piper-tts-bin piper-voices speech-dispatcher --needed
+
+# overskride, hyprpicker,  dracula-gtk-theme

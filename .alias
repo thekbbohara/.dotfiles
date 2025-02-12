@@ -57,7 +57,7 @@ alias kira='bash $HOME/piper/scripts/kira.sh'
 
 # config file shortcut
 alias hyprConf='cd ~/.config/hypr && vim hyprland.conf'
-alias keybindConf='cd ~/.config/hypr && vim config/hyprkeybindings.conf'
+alias keyConf='cd ~/.config/hypr && vim config/hyprkeybindings.conf'
 alias execConf='cd ~/.config/hypr && vim config/hyprexec.conf'
 
 alias 'alias-e'='vim ~/.alias'
