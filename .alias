@@ -56,9 +56,9 @@ alias speak='bash $HOME/piper/scripts/speak.sh'
 alias kira='bash $HOME/piper/scripts/kira.sh'
 
 # config file shortcut
-alias hyprConf='vim ~/.config/hypr/hyprland.conf'
-alias keybindConf='vim ~/.config/hypr/config/hyprkeybindings.conf'
-alias execConf='vim ~/.config/hypr/config/hyprexec.conf'
+alias hyprConf='cd ~/.config/hypr && vim hyprland.conf'
+alias keybindConf='cd ~/.config/hypr && vim config/hyprkeybindings.conf'
+alias execConf='cd ~/.config/hypr && vim config/hyprexec.conf'
 
 alias 'alias-e'='vim ~/.alias'
 alias 'ts-run'='node --loader ts-node/esm'
