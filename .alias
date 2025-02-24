@@ -69,5 +69,6 @@ alias 'list-icons'='ls /usr/share/icons/**/*.png | awk -F "/" '\''{print $8}'\''
 
 #recorder
 alias 'wl-rec'='wl-screenrec --low-power=off'
+alias 'wf-rec'='wf-recorder -a'
 
 

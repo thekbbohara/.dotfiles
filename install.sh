@@ -7,7 +7,8 @@ sudo pacman -Syu --noconfirm
 
 # Install packages from pacman repositories
 echo "Installing packages from pacman repositories..."
-sudo pacman -S --needed stow zsh zoxide wl-clipboard clipse waybar swaync hypridle hyprlock pypr exa neovim alacritty nautilus rofi fzf grim slurp noto-fonts noto-fonts-emoji noto-fonts-extra ttf-jetbrains-mono-nerd xdg-desktop-portal-hyprland brightnessctl qt6ct qt5ct unzip  --noconfirm 
+sudo pacman -S --needed stow zsh zoxide wl-clipboard clipse waybar swaync hypridle hyprlock pypr exa neovim alacritty nautilus rofi fzf grim slurp noto-fonts noto-fonts-emoji noto-fonts-extra ttf-jetbrains-mono-nerd xdg-desktop-portal-hyprland brightnessctl qt6ct qt5ct unzip libva-utils --noconfirm 
+
 # Install missing font (ttf-firacode-nerd) from AUR using yay
 echo "Installing ttf-firacode-nerd from AUR..."
 yay -S --needed ttf-firacode-nerd  --noconfirm
