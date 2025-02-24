@@ -1,3 +1,4 @@
+.config/tmux/plugins
 .config/mpd/mpd.log
 .config/clipse/
 .config/dconf/
@@ -16,3 +17,12 @@
 .config/gtk-4.0/
 .config/mimeapps.list
 .config/nwg-look/
+.config/Postman/
+.config/create-next-app-nodejs/
+.config/ncmpcpp/
+.config/prisma-nodejs/
+.config/simple-update-notifier/
+.config/tmux/tmux.reset.conf
+.config/tmux/tmux.status.conf
+.config/vlc/
+.config/xsettingsd/
