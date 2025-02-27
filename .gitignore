@@ -26,3 +26,5 @@
 .config/tmux/tmux.status.conf
 .config/vlc/
 .config/xsettingsd/
+.config/Android Open Source Project/
+.config/turborepo/
